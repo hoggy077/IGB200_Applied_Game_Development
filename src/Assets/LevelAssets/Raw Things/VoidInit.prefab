@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3654858495479816411
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3654858495479816409}
+  - component: {fileID: 3654858495479816410}
+  m_Layer: 0
+  m_Name: VoidInit
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3654858495479816409
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3654858495479816411}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -20.767525, y: 55.740784, z: -12.561453}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3654858495479816410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3654858495479816411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c4249d34f6a4bd46933e88191b39f1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TileAssets:
+  - Tiles:
+    - {fileID: 6049605792901559095, guid: e56e038512fb0a74e83f886d3a9df365, type: 3}
+    - {fileID: -5882170695943828418, guid: e56e038512fb0a74e83f886d3a9df365, type: 3}
+    - {fileID: 7591774343886807129, guid: e56e038512fb0a74e83f886d3a9df365, type: 3}
+    - {fileID: 8088830456793213489, guid: e56e038512fb0a74e83f886d3a9df365, type: 3}
+    - {fileID: 4177692092066526168, guid: e56e038512fb0a74e83f886d3a9df365, type: 3}
+    - {fileID: 8954592487278907307, guid: e56e038512fb0a74e83f886d3a9df365, type: 3}
+    - {fileID: -4906324669642958461, guid: e56e038512fb0a74e83f886d3a9df365, type: 3}
+    - {fileID: -4272997025716492783, guid: e56e038512fb0a74e83f886d3a9df365, type: 3}
+    - {fileID: -7504709878752999052, guid: e56e038512fb0a74e83f886d3a9df365, type: 3}
+    voidType: 0
+  - Tiles:
+    - {fileID: 2088678386001946041, guid: a2620ff2aa17e94468eabe0c4f5898ce, type: 3}
+    - {fileID: -5491350581053113304, guid: a2620ff2aa17e94468eabe0c4f5898ce, type: 3}
+    - {fileID: -4735844097875385538, guid: a2620ff2aa17e94468eabe0c4f5898ce, type: 3}
+    - {fileID: -3005526505026259812, guid: a2620ff2aa17e94468eabe0c4f5898ce, type: 3}
+    - {fileID: -623042725708083323, guid: a2620ff2aa17e94468eabe0c4f5898ce, type: 3}
+    - {fileID: -711273885210536834, guid: a2620ff2aa17e94468eabe0c4f5898ce, type: 3}
+    - {fileID: 5078812228994580251, guid: a2620ff2aa17e94468eabe0c4f5898ce, type: 3}
+    - {fileID: -7048931934961432595, guid: a2620ff2aa17e94468eabe0c4f5898ce, type: 3}
+    - {fileID: -8375915739835724284, guid: a2620ff2aa17e94468eabe0c4f5898ce, type: 3}
+    - {fileID: -2040448582613792451, guid: a2620ff2aa17e94468eabe0c4f5898ce, type: 3}
+    - {fileID: -6947381451497263344, guid: a2620ff2aa17e94468eabe0c4f5898ce, type: 3}
+    - {fileID: 1072788505936352025, guid: a2620ff2aa17e94468eabe0c4f5898ce, type: 3}
+    - {fileID: 9104600567628301983, guid: a2620ff2aa17e94468eabe0c4f5898ce, type: 3}
+    voidType: 1
+  - Tiles:
+    - {fileID: -833198350369497553, guid: 47ddd525ee736394ca7470befb2cbb85, type: 3}
+    - {fileID: -6001565339004034774, guid: 47ddd525ee736394ca7470befb2cbb85, type: 3}
+    - {fileID: 4723758463495848644, guid: 47ddd525ee736394ca7470befb2cbb85, type: 3}
+    - {fileID: 6097361237469605701, guid: 47ddd525ee736394ca7470befb2cbb85, type: 3}
+    - {fileID: 5303379514987385765, guid: 47ddd525ee736394ca7470befb2cbb85, type: 3}
+    - {fileID: -6979916128563125627, guid: 47ddd525ee736394ca7470befb2cbb85, type: 3}
+    - {fileID: 2487510087840305259, guid: 47ddd525ee736394ca7470befb2cbb85, type: 3}
+    - {fileID: 1894023857988037750, guid: 47ddd525ee736394ca7470befb2cbb85, type: 3}
+    - {fileID: 1980589806967995698, guid: 47ddd525ee736394ca7470befb2cbb85, type: 3}
+    - {fileID: -4598343125471553162, guid: 47ddd525ee736394ca7470befb2cbb85, type: 3}
+    - {fileID: 5601097147269821852, guid: 47ddd525ee736394ca7470befb2cbb85, type: 3}
+    - {fileID: 7154699332487064161, guid: 47ddd525ee736394ca7470befb2cbb85, type: 3}
+    voidType: 1
+  Tile_map: {fileID: 0}

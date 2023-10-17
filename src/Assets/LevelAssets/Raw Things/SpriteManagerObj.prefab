@@ -1,0 +1,182 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7949139824444931978
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7949139824444931981}
+  - component: {fileID: 7949139824444931980}
+  - component: {fileID: 5519067948932802383}
+  m_Layer: 0
+  m_Name: SpriteManagerObj
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7949139824444931981
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7949139824444931978}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7949139824444931980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7949139824444931978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5de60bd2af5ed7441964451464b6448e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TintShader: {fileID: -6465566751694194690, guid: 7f63107b44eaed940b6318bcfa40b58e, type: 3}
+  DirectionalSpriteCollections:
+  - name: MetalDoor
+    Up: {fileID: 8742920937583391322, guid: b70a6685bc103304c9105438d8c921ca, type: 3}
+    Down: {fileID: -5781459323266683018, guid: b70a6685bc103304c9105438d8c921ca, type: 3}
+    Left: {fileID: 552913712910371407, guid: b70a6685bc103304c9105438d8c921ca, type: 3}
+    Right: {fileID: 4013838309548243280, guid: b70a6685bc103304c9105438d8c921ca, type: 3}
+  - name: WoodDoor
+    Up: {fileID: -4950680412457382125, guid: b70a6685bc103304c9105438d8c921ca, type: 3}
+    Down: {fileID: -551082938411016477, guid: b70a6685bc103304c9105438d8c921ca, type: 3}
+    Left: {fileID: 3499683669041570755, guid: b70a6685bc103304c9105438d8c921ca, type: 3}
+    Right: {fileID: -2869115396899081085, guid: b70a6685bc103304c9105438d8c921ca, type: 3}
+  - name: OpenDoor
+    Up: {fileID: -6315338081298181389, guid: b70a6685bc103304c9105438d8c921ca, type: 3}
+    Down: {fileID: 1496226213467112817, guid: b70a6685bc103304c9105438d8c921ca, type: 3}
+    Left: {fileID: -3834454974551121022, guid: b70a6685bc103304c9105438d8c921ca, type: 3}
+    Right: {fileID: 3230424311799132286, guid: b70a6685bc103304c9105438d8c921ca, type: 3}
+  - name: DoorLights
+    Up: {fileID: -4881570624500920633, guid: 041f1d5810e41bd49afd55ac1899cddf, type: 3}
+    Down: {fileID: -45647430405561311, guid: 041f1d5810e41bd49afd55ac1899cddf, type: 3}
+    Left: {fileID: -1262353921143904822, guid: 041f1d5810e41bd49afd55ac1899cddf, type: 3}
+    Right: {fileID: -1980124987124494281, guid: 041f1d5810e41bd49afd55ac1899cddf, type: 3}
+  SpriteCollections:
+  - name: VoidFills
+    Sprites:
+    - {fileID: -4343367186929615182, guid: a2620ff2aa17e94468eabe0c4f5898ce, type: 3}
+    - {fileID: 21300000, guid: e3569d040fbbebd4997676ba5fa65900, type: 3}
+  - name: ChestSprites
+    Sprites:
+    - {fileID: 4714410783012859700, guid: a9a98fc1c05e0f34ebfc7dfb15f10208, type: 3}
+    - {fileID: -5281422124547630143, guid: a9a98fc1c05e0f34ebfc7dfb15f10208, type: 3}
+  - name: BonfireSprites
+    Sprites:
+    - {fileID: 5801255725635399724, guid: 0ffa0633ee3fcb442a2d712505b73362, type: 3}
+    - {fileID: -841097564060088913, guid: 0ffa0633ee3fcb442a2d712505b73362, type: 3}
+--- !u!114 &5519067948932802383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7949139824444931978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cf46b22c527c6c4ba49718c54374837, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SoundCollections:
+  - name: SpellSounds
+    soundCollections:
+    - name: RaySound
+      soundPrefab: {fileID: 2236515838088225189, guid: 27bf3c3725e29cc4d866258891443157, type: 3}
+    - name: ConeSound
+      soundPrefab: {fileID: 2384502462443574544, guid: 0321ecc87623f6b4d811df6e65cf54d9, type: 3}
+    - name: ArcSound
+      soundPrefab: {fileID: 4455417231651484877, guid: 9a887e0bb4c9aa744a768781c7c3ffa7, type: 3}
+    - name: OrbThrowSound
+      soundPrefab: {fileID: 3663275519070544208, guid: 2f30c010bc391e443a89a48b61be3ecc, type: 3}
+    - name: OrbExplodeSound
+      soundPrefab: {fileID: 1877704192655843552, guid: 1ee095ee537d58644a31644643efd1b9, type: 3}
+  - name: DamageNoises
+    soundCollections:
+    - name: FireDamage
+      soundPrefab: {fileID: 9142737913820445817, guid: 4f40cf88e59b2ad49b24483d8829d3af, type: 3}
+    - name: IceDamage
+      soundPrefab: {fileID: 7557542892660980780, guid: 89683480f6bc87e40be82e59e711b051, type: 3}
+    - name: ElectricityDamage
+      soundPrefab: {fileID: 6875900902768011216, guid: 1be0d6ba31c1bce49a3380ffd0b59671, type: 3}
+    - name: NULLDamage
+      soundPrefab: {fileID: 2005349951531363110, guid: 4109314f66f02f8459fb7591a89219ed, type: 3}
+    - name: PushDamage
+      soundPrefab: {fileID: 1464988429104889540, guid: dc1c26d67e8e0344dbf29cf2a9d4771c, type: 3}
+    - name: PullDamage
+      soundPrefab: {fileID: 2120952667069339945, guid: 89990b639800bd841940a25da8f8afdd, type: 3}
+    - name: EnemyHurt
+      soundPrefab: {fileID: 9142737913820445817, guid: 4f40cf88e59b2ad49b24483d8829d3af, type: 3}
+    - name: PlayerHurt
+      soundPrefab: {fileID: 2005349951531363110, guid: 4109314f66f02f8459fb7591a89219ed, type: 3}
+    - name: AttackFail
+      soundPrefab: {fileID: 7343155223416498273, guid: d29b7469dd9daf44aa183d63cdde36d3, type: 3}
+    - name: LifeDamage
+      soundPrefab: {fileID: 6875900902768011216, guid: 1be0d6ba31c1bce49a3380ffd0b59671, type: 3}
+  - name: EnemySounds
+    soundCollections:
+    - name: PullSound
+      soundPrefab: {fileID: 2120952667069339945, guid: 89990b639800bd841940a25da8f8afdd, type: 3}
+    - name: PushSound
+      soundPrefab: {fileID: 1464988429104889540, guid: dc1c26d67e8e0344dbf29cf2a9d4771c, type: 3}
+    - name: EnemyDeathSound
+      soundPrefab: {fileID: 207168208727640438, guid: 41483acde3a6b784b9d93cb0fabbb453, type: 3}
+    - name: BatFlapSound
+      soundPrefab: {fileID: 3712097985195319044, guid: 44fe1536b6758394182252e6818bf0d0, type: 3}
+    - name: SkeletonJumpSound
+      soundPrefab: {fileID: 1845055413439498934, guid: 7c1f12d73469823439b3ba27e7d44a4c, type: 3}
+    - name: ThrowProjectileSound
+      soundPrefab: {fileID: 4154397112686019130, guid: 00d56ccd2c2ad27438125cb6414b4507, type: 3}
+    - name: HeavyKnightStepSound
+      soundPrefab: {fileID: 1519362851552582532, guid: f3f9f35fc9aab2b4aa7d7b4d1415e8c7, type: 3}
+  - name: VoidSounds
+    soundCollections:
+    - name: PlayerVoidDropSound
+      soundPrefab: {fileID: 8896501753198295491, guid: 0998e6409bc93264883bd9c90cc97fc0, type: 3}
+    - name: VoidDropSound
+      soundPrefab: {fileID: 8342393830420493300, guid: 54c74cdbb00c0304999d00f6ad5e3598, type: 3}
+    - name: WaterDropSound
+      soundPrefab: {fileID: 6798944413720866177, guid: b5157fa69721ed947906ef8a0b71383c, type: 3}
+    - name: WaterFreezeSound
+      soundPrefab: {fileID: 7557542892660980780, guid: 89683480f6bc87e40be82e59e711b051, type: 3}
+  - name: UISounds
+    soundCollections:
+    - name: MenuButtonSound
+      soundPrefab: {fileID: 1688097123283137510, guid: e290e48001f8bfb409eade729c37a6b4, type: 3}
+    - name: SpellCraftSound
+      soundPrefab: {fileID: 8574806801959931809, guid: 0fcf46ba2363982458ebc519b7e51a73, type: 3}
+  - name: ObjectSounds
+    soundCollections:
+    - name: PullSound
+      soundPrefab: {fileID: 2120952667069339945, guid: 89990b639800bd841940a25da8f8afdd, type: 3}
+    - name: PushSound
+      soundPrefab: {fileID: 1464988429104889540, guid: dc1c26d67e8e0344dbf29cf2a9d4771c, type: 3}
+    - name: ButtonPressSound
+      soundPrefab: {fileID: 5423415212410916101, guid: e2e8c4b1b63fb9740961af367f9d61ba, type: 3}
+    - name: DoorOpenSound
+      soundPrefab: {fileID: 3221479616657157352, guid: 8dcf75a09df6ac94195c20eaf033d6c3, type: 3}
+    - name: EnteringDoorSound
+      soundPrefab: {fileID: 6187046135797150018, guid: 3364cfdb60bd5ce4e88811a6f85ea207, type: 3}
+    - name: ChestOpenSound
+      soundPrefab: {fileID: 4744085057848712468, guid: 93490bcef582ff344a7babd943a32403, type: 3}
+    - name: PuzzleSolveSound
+      soundPrefab: {fileID: 376687126408359801, guid: 938678d7314a6c94f898dbd5ac374ce3, type: 3}
+    - name: UsePortalSound
+      soundPrefab: {fileID: 6217748858285820441, guid: 23d2ae95f15e8294a9070dcc569f1cbf, type: 3}
+  - name: NullSound
+    soundCollections:
+    - name: Empty
+      soundPrefab: {fileID: 2120952667069339945, guid: 89990b639800bd841940a25da8f8afdd, type: 3}

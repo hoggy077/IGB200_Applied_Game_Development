@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4423776004440969248
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4423776004440969250}
+  - component: {fileID: 4423776004440969253}
+  m_Layer: 0
+  m_Name: SpellRegObj
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4423776004440969250
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4423776004440969248}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.8936772, y: -5.5623345, z: 10.788901}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4423776004440969253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4423776004440969248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc78c95602c79cb4b84d2f3a438f80ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultUnlit: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  shader: {fileID: -6465566751694194690, guid: 97840132b5feb054a8b527b4001e4547, type: 3}
+  rayPieces:
+  - {fileID: -6896016907692476293, guid: 08719681da426644b91edfd89609a11f, type: 3}
+  - {fileID: -2930296756788958139, guid: 08719681da426644b91edfd89609a11f, type: 3}
+  - {fileID: 3723770373199202995, guid: 08719681da426644b91edfd89609a11f, type: 3}
+  arcCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.7
+      value: 1
+      inSlope: -0.016032333
+      outSlope: -0.016032333
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.11381993
+    - serializedVersion: 3
+      time: 0.8356438
+      value: 0.95578206
+      inSlope: -0.6933646
+      outSlope: -0.6933646
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.9315699
+      value: 0.7858418
+      inSlope: -3.133816
+      outSlope: -3.133816
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.26378626
+    - serializedVersion: 3
+      time: 0.97756547
+      value: 0.5604536
+      inSlope: -6.77976
+      outSlope: -6.77976
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.5768312
+    - serializedVersion: 3
+      time: 0.9921158
+      value: 0.40444127
+      inSlope: -16.591269
+      outSlope: -16.591269
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.9990855
+      value: 0.18089214
+      inSlope: -18.46377
+      outSlope: -18.46377
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 1
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: -7.6330004
+      outSlope: -7.6330004
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.048784114
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  ArcSprite: {fileID: 4777539431701868471, guid: cbe3ea45cb0626945868c9494823d5f6, type: 3}
+  OrbSprite: {fileID: 2481669751348490954, guid: a3d09c315ac591d488dda3bdf61d5388, type: 3}
+  ConeSprite: {fileID: 1286767425468429618, guid: a28bc66f86257f745af7fcb9af32a62d, type: 3}
+  ShieldSprite: {fileID: 21300000, guid: 021d2b4c60b97f642ae8dded8cbd1600, type: 3}
+  PulseFXObject: {fileID: 8377872944851353150, guid: 58b74cf30c2597540bf221f9437a4667, type: 3}

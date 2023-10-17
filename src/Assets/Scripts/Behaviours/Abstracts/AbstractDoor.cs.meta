@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: c31ae0c445cbf9b48ab9c35f4a4f5678
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - walkThroughSoundEffect: {fileID: 6187046135797150018, guid: 3364cfdb60bd5ce4e88811a6f85ea207, type: 3}
+  - ExitDoor: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
